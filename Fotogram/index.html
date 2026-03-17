@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fotogram</title>
+
+    <link rel="stylesheet" href="./css/fonts.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <link
+      rel="icon"
+      href="./img/logo/favicon_fotogram.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body id="body">
+    <div id="holder">
+      <div class="background-head">
+        <header>
+          <div class="ct-container">
+            <div class="head-logo">
+              <a href="./index.html" class="favicon"
+                ><img
+                  class="favicon"
+                  src="./img/logo/logo_fotogram.svg"
+                  alt="logo-fotogram"
+              /></a>
+            </div>
+          </div>
+        </header>
+      </div>
+
+      <div class="background-main">
+        <main>
+          <div class="ct-container">
+            <div class="text">
+              <h2>
+                Cape Town is a magical city that leaves you with memories to
+                treasure forever.<br />
+                Its breathtaking landscapes, from the rugged mountains to the
+                azure sea, provide the perfect backdrop for unforgettable
+                experiences.<br />
+                The rich cultural heritage and vibrant atmosphere create an
+                enchanting setting, making every visit a journey filled with
+                magical moments.
+              </h2>
+            </div>
+            <div class="ct-picture">
+              <img
+                onclick="addDialog(); renderDialog(); renderSlideShow(0)"
+                class="image"
+                src="./img/beautiful-ocean.jpg"
+              />
+              <img
+                onclick="addDialog(); renderDialog(); renderSlideShow(1)"
+                class="image"
+                src="./img/bo-kap.jpg"
+              />
+              <img
+                onclick="addDialog(); renderDialog(); renderSlideShow(2)"
+                class="image"
+                src="./img/botanical_garden.jpg"
+              />
+              <img
+                onclick="addDialog(); renderDialog(); renderSlideShow(3)"
+                class="image"
+                src="./img/boulders-beach.jpg"
+              />
+              <img
+                onclick="addDialog(); renderDialog(); renderSlideShow(4)"
+                class="image"
+                src="./img/table_mountain_view.jpg"
+              />
+              <img
+                onclick="addDialog(); renderDialog(); renderSlideShow(5)"
+                class="image"
+                src="./img/camps_bay.jpg"
+              />
+              <img
+                onclick="addDialog(); renderDialog(); renderSlideShow(6)"
+                class="image"
+                src="./img/city.jpg"
+              />
+              <img
+                onclick="addDialog(); renderDialog(); renderSlideShow(7)"
+                class="image"
+                src="./img/union-market.jpg"
+              />
+              <img
+                onclick="addDialog(); renderDialog(); renderSlideShow(8)"
+                class="image"
+                src="./img/habour.jpg"
+              />
+              <img
+                onclick="addDialog(); renderDialog(); renderSlideShow(9)"
+                class="image"
+                src="./img/harbour-city.jpg"
+              />
+              <img
+                onclick="addDialog(); renderDialog(); renderSlideShow(10)"
+                class="image"
+                src="./img/lighthouse.jpg"
+              />
+              <img
+                onclick="addDialog(); renderDialog(); renderSlideShow(11)"
+                class="image"
+                src="./img/lionshead.jpg"
+              />
+              <img
+                onclick="addDialog(); renderDialog(); renderSlideShow(12)"
+                class="image"
+                src="./img/markethall.jpg"
+              />
+              <img
+                onclick="addDialog(); renderDialog(); renderSlideShow(13)"
+                class="image"
+                src="./img/meer.jpg"
+              />
+              <img
+                onclick="addDialog(); renderDialog(); renderSlideShow(14)"
+                class="image"
+                src="./img/muizenberg.jpg"
+              />
+              <img
+                onclick="addDialog(); renderDialog(); renderSlideShow(15)"
+                class="image"
+                src="./img/nature.jpg"
+              />
+              <img
+                onclick="addDialog(); renderDialog(); renderSlideShow(16)"
+                class="image"
+                src="./img/ocean-mountains.jpg"
+              />
+              <img
+                onclick="addDialog(); renderDialog(); renderSlideShow(17)"
+                class="image"
+                src="./img/simonstown.jpg"
+              />
+              <img
+                onclick="addDialog(); renderDialog(); renderSlideShow(18)"
+                class="image"
+                src="./img/sunrise-city.jpg"
+              />
+              <img
+                onclick="addDialog(); renderDialog(); renderSlideShow(19)"
+                class="image"
+                src="./img/sunrise-sea.jpg"
+              />
+            </div>
+
+            <div id="dialog-overlay" class="d-none">
+              <div id="dialog" class="d-none">
+                <span
+                  onclick="removeDialog()"
+                  style="
+                    position: absolute;
+                    top: 10px;
+                    right: 10px;
+                    cursor: pointer;
+                  "
+                ></span>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+
+      <div class="background-footer">
+        <footer>
+          <div class="ct-container">
+            <div class="footer">
+              <a href="index.html">&#xA9; 2024&ensp; Lesley Fournier</a>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
